@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.mobile{
+    height: 812px;
+    width: 375px;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12mm;
+}
+.Mobile_card{
+    height: 501px;
+    width: 327px;
+    background-color: white;
+    border-radius: 5%;
+    border: 2px solid black;
+    box-shadow:black 2px  ;
+    display: flex;
+    justify-content: center;
+    display: block;
+    
+}
+.logo{
+    height: 250px;
+    width: 280px;
+    position: relative;
+    bottom: 18px;
+    left: 24px;
+    
+}
+.category{
+    width: 80px;
+    height: 25px;
+    background-color:  hsl(47, 88%, 63%);
+    position: relative;
+    left: 24px ; 
+    border-radius: 10%;
+    border-style: hidden;
+    font-family: "Figtree", sans-serif;
+    font-weight: 950;
+}
+.publish_data{
+    position: relative;
+    left: 24px;
+    font-family: "Figtree", sans-serif;
+    opacity: 0.7;
+
+}
+h2{
+    position: relative;
+    left: 24px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.Description{
+    position: relative;
+    left: 24px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    /* display: flex;
+    flex-wrap: wrap; */
+    text-wrap: balance;
+    bottom: 10px;
+    opacity: 0.5;
+    
+}
+.author{
+    width: 40px;
+    position: relative;
+    left: 24px;
+    bottom: 10px;
+}
+#personal{
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
